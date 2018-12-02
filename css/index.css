@@ -1,0 +1,61 @@
+    /*Body & headings options*/
+	    html, nav {
+        font-family: "stencil";
+        }      
+		body{
+			background-color: black;
+		}
+		.navbar-brand{
+			font-size: 25px;
+		}
+		h2{
+			text-align: center;
+			padding-bottom: 10px;
+			font-family: "stencil";
+		}
+		h2:hover{
+			transform: scale(1.5,1.5);
+			transition: 1s, ease-out;
+			color: white;
+		}
+		/*Body & headings options*/
+
+		/*Video & audio options*/
+		.videos{
+			text-align: center;
+		}
+		.vidBor{
+			margin:0px;
+			border:0px;
+			width: 480px;
+			height: 262px;
+		}
+		.audio{
+			text-align: center;
+			color: white;
+			display: block;
+			position: center;
+		}
+		/*Video & audio options*/
+
+		/*Social media buttons options*/
+		.SocialMedia:hover{
+			opacity: 0.5;
+		}
+		.indent{
+			padding-left: 260px;
+			position: fixed;
+		}
+		/*Social media buttons options*/
+
+		@media (max-width: 640px){
+			.vidBor{
+			margin:0px;
+			border:0px;
+			width: 280px;
+			height: 153px;
+			}
+			#carousel-example-generic{
+				margin-top:60px;
+			}
+		}

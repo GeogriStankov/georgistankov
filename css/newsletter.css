@@ -1,0 +1,174 @@
+    /*Body & headings options*/
+        html, nav {
+        font-family: "stencil";
+        }
+		body{
+			background-color: black;
+		}
+        h2{
+            text-align: center;
+            padding-bottom: 10px;
+            font-family: "stencil";
+            color: white;
+        }
+        h2:hover{
+            transform: scale(1.5,1.5);
+            transition: 1s, ease-out;
+            color: white;
+        }
+        h3{
+            text-decoration: none;
+        }
+		.navbar-brand{
+			font-size: 25px;
+		}
+        /*Body & headings options*/
+
+        /*Form options*/
+        .container_2{
+            display: inline-block;
+            position:absolute;
+            width:300px;
+            height:90px;
+            left:800px;
+            top:300px;
+            text-align: center;
+        }
+		form{
+            width: 450px;
+            border: 1px solid #999;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 0px;
+            margin-bottom: 5px;
+            background-color: black;
+        }
+        .field{
+        	display: block;
+        	padding-bottom:6px;
+            padding-top: 0px;
+        }
+        input{
+            width: 100%;
+            padding-left:9px;
+            padding-right: 9px;
+            padding-top:10px;
+            padding-bottom: 10px; 
+            margin: 5px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        .message{
+            height: 150px;
+            width: 100%;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+            padding-top: 0px;
+        }
+
+        #button{
+        	width: 450px;
+        	height: 35px;
+            background-color: lightgrey;
+            border: 1px solid #ccc;
+        	border-radius: 3px ;
+        }
+        #button:hover{
+        	background:#000000;
+            color: white;
+        }
+		/*modal options*/
+        .modal {
+        	margin:10px;
+            display: none; 
+            position: fixed; 
+            width: 100%; 
+            height: 100%;*/
+            overflow: auto;
+            z-index: 1;
+            background: rgba(0, 0, 0, 0.9);
+        }
+        /*modal box*/
+        .modal-content {
+        	width: 500px;
+        	height: 110px;
+        	text-align: center;
+        	background-color: lightgrey;
+            margin:17% auto;
+            background-color: rgba(0,0,0,40);
+            border: 3px solid #888;
+        	border-radius: 1px;
+        	
+        }
+        .modal-header {
+            background-color: black;
+            color: white;
+        }
+        /*Forms*/
+
+        /*Social Media buttons*/
+        .SocialMedia:hover{
+            opacity: 0.5;
+        }
+        /*Social Media buttons*/
+
+        @media (max-width: 640px){
+
+        form{ 
+            border: 1px solid #999;
+            border-radius: 5px;
+            padding: 20px;
+            background-color: black;
+            text-align: center;
+            width: 80%;
+            margin: 0 auto;
+        }
+         #button{
+            width: 80%;
+            margin: 0 auto;
+            height: 35px;
+            background-color: lightgrey;
+            border: 1px solid #ccc;
+            border-radius: 3px ;
+        }
+        .modal {
+            margin-top:200px;
+            display: none; 
+            position: fixed; 
+            width: 100%; 
+            height: 100%;*/
+            overflow: auto;
+            background: rgba(0, 0, 0, 0.9) 
+            z-index: 1;
+        }
+        /*modal box*/
+        .modal-content {
+            width: 250px;
+            height: 55px;
+            text-align: center;
+            background-color: lightgrey;
+            margin:17% auto;
+            background-color: rgba(0,0,0,40);
+            border: 3px solid #888;
+            border-radius: 1px;
+        }
+        .container{
+            text-align: center;
+            margin:auto;
+        }
+        .container_2{
+            display: inline-block;
+            position:relative;
+            width:300px;
+            height:90px;
+            left:10px;
+            top:10px;
+            text-align: center;
+        }
+    }

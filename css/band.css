@@ -1,0 +1,83 @@
+	    /*Body & headings options*/
+	    html, nav{
+        font-family: "stencil";
+        }
+		body{
+			background-color: black;
+		}
+		h2{
+			text-align: center;
+		    padding-bottom: 10px;
+		    font-family: "stencil";
+		}
+		h2:hover{
+			transform: scale(1.5,1.5);
+			transition: 1s, ease-out;
+			color: white;
+		}
+		h3{
+			font-family: "stencil";
+			padding-bottom: 15px;
+		}
+
+		.navbar-brand{
+			font-size: 25px;
+		}
+		/*Body & headings options*/
+
+		/*Panels options*/
+		.panel-body{
+			background-color: grey;
+			color: white;
+			text-align: justify;
+            line-height: 1.5;
+		}
+		.box{
+		    width: 100%;
+		    background-color: #808080;
+		    margin-bottom: 10px;
+            border: 1px solid #fff;
+			border-radius: 5px;
+			padding: 20px 20px;	
+			color: white;
+			text-align: justify;
+    	    line-height: 1.5;
+		}
+		/*Panels options*/
+
+		/*Image options*/
+		.snimka{
+			float: left;
+			margin-right: 10px;
+			border: 1px solid #fff;
+			border-radius: 2px;
+		}
+		/*Image options*/
+
+		/*Paragraphs and Social Media buttons options*/
+		p{
+			font-size: 15px;
+		}
+		.gl:first-letter{
+			font-weight: bolder;
+			font-size: 1.5em;
+		}
+
+	    .SocialMedia:hover{
+			opacity: 0.5;
+		}
+		/*Paragraphs and Social Media buttons options*/
+
+		@media (max-width: 640px){
+			.snimka{
+				display: block;
+                margin-left: auto;
+                margin-right: auto;
+				height: 150px;
+				width: 150px;
+				float: none;
+			}
+			p{
+				text-align: justify;
+			}
+		}

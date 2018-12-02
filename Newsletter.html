@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+	<title>Newsletter</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/newsletter.css">
+</head>
+<body>
+    <!--Navbar-->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="Index.html">RAMMSTEIN</a>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myCollapsingList">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+		<ul id="myCollapsingList" class="nav navbar-nav navbar-right collapse navbar-collapse">
+				<li><a href="Index.html">Home</a></li>
+			    <li><a href="The_Band.html">The Band</a></li>
+			    <li><a href="Albums.html">Discography</a></li>
+			    <li><a href="#">Newsletter</a></li>
+			</ul>
+		</div>
+	</nav>
+    <hr>
+    <hr>
+    <!--Navbar-->
+
+    <!--Form-->
+	<div class="container">
+        <hr>
+        <h2>Contact us</h2>
+		<form>
+			<h3>Send us a message</h3>
+			<fieldset class="input-boxes">
+				<label for="name" class="field"></label>
+				<input type="text" name="name" placeholder="Enter your name"/>
+
+				<label for="email" class="field"></label>
+				<input type="email" name="email" placeholder="Enter your e-mail" required />
+
+				<label for="message" class="field"></label>
+				<input class="message" type="text" name="message" placeholder="Enter your message"/>
+			</fieldset>
+		</form>
+        <div class="container_1">
+	    <button id="button">Submit</button>
+            <div id="modal" class="modal">
+            <div class="modal-content">
+            	<div class="modal-header">
+            <span class="close">&times;</span>
+            <h3>Thank you for your e-mail</h3>
+          </div> 
+         </div>        
+     </div>
+ </div>
+ <!--Form-->
+
+     <!--Social Media buttons-->
+     <div class="container_2">      
+          <hr>
+         <a href="https://www.facebook.com/Rammstein/" target="_blank"><img class="SocialMedia" src="Images/Facebook.png" alt="Facebook"/></a>
+         <a href="https://www.instagram.com/rammsteinofficial/?hl=en" target="_blank"><img class="SocialMedia" src="Images/Instagram.png" alt="Instagram"/></a>
+         <a href="https://twitter.com/rsprachrohr?lang=en" target="_blank"><img class="SocialMedia" src="Images/Twitter.png" alt="Twitter"/></a>
+         <a href="https://www.youtube.com/channel/UCYp3rk70ACGXQ4gFAiMr1SQ" target="_blank"><img class="SocialMedia" src="Images/Youtube.png" alt="Youtube"/></a>
+        <hr>
+    </div>  
+</div>
+<!--Social Media buttons-->  	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="modal.js"></script>
+	<script src="bootstrap.min.js"></script>
+  </body>
+</html>
